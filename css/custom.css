@@ -55,4 +55,28 @@
   border-radius: 0.25rem;
   cursor: pointer;
 }
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  background-color: transparent;
+}
 
+.btn-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-link:focus, .btn-link.focus {
+  text-decoration: underline;
+  border-color: transparent;
+  box-shadow: none;
+}
+.text-center {
+  text-align: center;
+}
